@@ -1,0 +1,174 @@
+.container {
+  max-width: 500px;
+  margin: auto;
+}
+
+.padding-default {
+  padding: 15px;
+}
+
+.padding-top-default {
+  padding-top: 15px;
+}
+
+.margin-row-large {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.margin-col-default {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.margin-right-default {
+  margin-right: 15px;
+}
+
+.margin-left-default {
+  margin-left: 15px;
+}
+
+.margin-none {
+  margin: 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.login-parent {
+  padding: 30px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.display-flex {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-space-between {
+  justify-content: space-between;
+}
+
+.flex-direction-column {
+  flex-direction: column;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.login-button {
+  display: inline-block;
+  margin-bottom: 0;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+  padding: 6px 12px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #2f9bdb;
+  border-color: #238ecd;
+  width: 100%;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.loader {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  font-size: 20px;
+  transform: translate(-50%, 50%);
+}
+
+.iframe-wrapper {
+  flex: 0 0 50%;
+  height: calc(100vh - 70px);
+}
+
+.info {
+  font-size: 20px;
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 60px;
+}
+
+.color-blue {
+  color: #2f9bdb;
+}
+
+.color-red {
+  color: red;
+}
+
+.logout-button {
+  background: #2f9bdb;
+  color: white;
+  border-color: #2f9bdb;
+  padding: 3px 25px;
+}
+
+.username {
+  font-size: 18px;
+  font-weight: bold;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 200px;
+}
+
+.search-box {
+  color: #2f9bdb;
+}
+
+@media only screen and (max-width: 767px) {
+  .padding-col-default-xs {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+  .flex-direction-column-xs {
+    flex-direction: column;
+  }
+
+  .flex-direction-column-rev-xs {
+    flex-direction: column-reverse;
+  }
+
+  .iframe-wrapper {
+    flex: auto;
+    height: 100vh;
+  }
+
+  .username {
+    width: 100px !important;
+  }
+}
